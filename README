@@ -1,0 +1,7 @@
+Execute the following command line after cloning:
+'''
+	kubectl create -f prometheus-cm.yaml 
+	kubectl create -f prometheus-rbac.yaml 
+	kubectl create -f prometheus-deploy.yaml 
+	kubectl create -f prometheus-svc.yaml 
+'''
